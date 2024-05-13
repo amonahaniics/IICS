@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : null,
+        "description" : "change1",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-05-13T14:57:37.013Z",
+  "updateTime" : "2024-05-13T15:04:52.179Z",
   "objectRefs" : [ {
     "id" : "gkwlDzlNHukciy9SCCDYSz",
     "name" : "Informatica Cloud Hosted Agent",
@@ -61,7 +61,7 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "change 1.",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
