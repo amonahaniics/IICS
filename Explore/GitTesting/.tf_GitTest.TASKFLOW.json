@@ -13,14 +13,14 @@
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : "change 1.",
+        "description" : "change 2.",
         "contentType" : "application/json; charset=utf-8",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "xml",
-  "updateTime" : "2024-05-13T15:04:52.179Z",
+  "updateTime" : "2024-05-13T15:11:23.451Z",
   "objectRefs" : [ {
     "id" : "dZcLxMmoegbgMs1GfEWte7",
     "name" : "mt_GitTest",
@@ -38,7 +38,7 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "change1",
+        "description" : "change 2.",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }

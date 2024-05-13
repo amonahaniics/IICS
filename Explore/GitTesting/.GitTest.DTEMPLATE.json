@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "change 1.",
+        "description" : "change 2.",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-05-13T15:04:52.179Z",
+  "updateTime" : "2024-05-13T15:11:23.451Z",
   "objectRefs" : [ {
     "id" : "bY2N9sZIlWDbY5KxOk7xsw",
     "name" : "AM_Snowflake",
