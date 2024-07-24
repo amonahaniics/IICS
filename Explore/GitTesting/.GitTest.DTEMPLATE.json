@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "06h9p9vI42NeEsCdYNJVmI",
+    "id" : "4m9lKRQqkNMcsWWQzc7XaW",
     "name" : "GitTest",
     "type" : "DTEMPLATE",
     "metadata" : {
@@ -9,23 +9,23 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01CRUR17000000000002"
+        "repoHandle" : "01C7NV170000000002DR"
       },
       "contextAttributes" : [ {
         "name" : "id",
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "change 2.",
+        "description" : "change 3",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-05-13T15:11:23.451Z",
+  "updateTime" : "2024-07-24T19:00:19.774Z",
   "objectRefs" : [ {
-    "id" : "bY2N9sZIlWDbY5KxOk7xsw",
+    "id" : "cO5tWhprQYVdZPhWA7ExQu",
     "name" : "AM_Snowflake",
     "type" : "Connection",
     "metadata" : {
@@ -34,7 +34,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01CRUR0B000000000002"
+        "repoHandle" : "01C7NV0B000000000002"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
