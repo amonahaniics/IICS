@@ -1,0 +1,88 @@
+{
+  "objectInfo" : {
+    "id" : "i5Lu5c6PFw1fmRGKRfoE0Y",
+    "name" : "m_AID_NullCheck_UnpaidFeesReport",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01C7NV170000000002BX"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapping performs Null Check rules check for the presence of a ‘not-null’ and  ‘not empty’ value for a Data Element and mark the record invalid if the value is null or empty. The mapping will use the mapplet to validate the records and pass all “Invalid” records into the CUSTOM_PIVOTED_EXCEPTIONS table while writing a summary records with the count of total number of records and total number of “Invalid” records along with other house keeping columns to the JOB_CTRL table. ",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-08-09T20:05:27.137Z",
+  "objectRefs" : [ {
+    "id" : "2rJYba3JtiZdx5N8qq8JWY",
+    "name" : "EDW_Audit_Report",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01C7NV0B00000000002G"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Connection to OnPrem EDW SQL DB  AID",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "9rlX4b30XI2dxBek8Gntkn",
+    "name" : "Ora_DQ_Exception",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01C7NV0B00000000002F"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "9ljmnLhtZQ9jcwlTFMejgW",
+    "name" : "mplt_Null_Check",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01C7NV4000000000000C"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Null Check Mapplet checks for the presence of a ‘not-null’ and  ‘not empty’ value for a Data Element and mark the record invalid if the value is null or empty.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/CDI/Mapplets"
+  } ]
+}
